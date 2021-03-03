@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7d65741-99b8-42d9-aec2-918249e5a84a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/todolists.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todolists.iml" afterDir="false" />
+    <list default="true" id="e7d65741-99b8-42d9-aec2-918249e5a84a" name="Default" comment="Vulnerabilities&#10;CVE-2020-8167 Moderate severity">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +26,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1923" />
-    <option name="width" value="1914" />
-    <option name="height" value="1039" />
-  </component>
   <component name="ProjectId" id="1clumG3Ba1c3oxKhExiHPGCYNot" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -67,14 +63,15 @@
       <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_FORKED_COVERAGE="true">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+      <IRB_RUN_CONFIG NAME="CONSOLE_TYPE" VALUE="RAILS" />
       <method v="2" />
     </configuration>
     <configuration name="db:migrate: todolists" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -89,11 +86,12 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_FORKED_COVERAGE="true">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
@@ -112,11 +110,12 @@
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_FORKED_COVERAGE="true">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/temp.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
@@ -131,13 +130,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="IRB.Rails console: todolists" />
       <item itemvalue="Rails.Production: todolists" />
       <item itemvalue="Rails.Development: todolists" />
       <item itemvalue="Rake.test: todolists" />
       <item itemvalue="Rake.spec: todolists" />
       <item itemvalue="Rake.db:migrate: todolists" />
       <item itemvalue="Ruby.temp" />
+      <item itemvalue="Ruby Console.Rails console: todolists" />
     </list>
     <recent_temporary>
       <list>
@@ -146,6 +145,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
@@ -164,6 +164,9 @@
       <workItem from="1467719325224" duration="1700000" />
       <workItem from="1557688123067" duration="261000" />
       <workItem from="1591115661717" duration="427000" />
+      <workItem from="1595346397221" duration="355000" />
+      <workItem from="1595347833805" duration="206000" />
+      <workItem from="1611603955589" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="CVE-2020-8166 Low severity&#10;CVE-2020-8164 Moderate severity&#10;CVE-2020-8165 High severity">
       <created>1591115989314</created>
@@ -172,11 +175,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591115989314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vulnerabilities&#10;CVE-2020-8167 Moderate severity">
+      <created>1595346696687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595346696687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -188,20 +198,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CVE-2020-8166 Low severity&#10;CVE-2020-8164 Moderate severity&#10;CVE-2020-8165 High severity" />
-    <option name="LAST_COMMIT_MESSAGE" value="CVE-2020-8166 Low severity&#10;CVE-2020-8164 Moderate severity&#10;CVE-2020-8165 High severity" />
+    <MESSAGE value="Vulnerabilities&#10;CVE-2020-8167 Moderate severity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vulnerabilities&#10;CVE-2020-8167 Moderate severity" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2475" y="68" width="805" height="900" key="CommitChangelistDialog2" timestamp="1591115989238">
+    <state x="2475" y="68" width="805" height="900" key="CommitChangelistDialog2" timestamp="1595346696598">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="68" width="805" height="900" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1052/3840.0.1920.1080@1920.0.1920.1080" timestamp="1591115989238" />
+    <state x="2475" y="68" width="805" height="900" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1052/3840.0.1920.1080@1920.0.1920.1080" timestamp="1595346696598" />
     <state x="2464" y="265" width="828" height="505" key="IDE.errors.dialog" timestamp="1591115844843">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2464" y="265" width="828" height="505" key="IDE.errors.dialog/1920.0.1920.1080/0.0.1920.1052/3840.0.1920.1080@1920.0.1920.1080" timestamp="1591115844843" />
-    <state x="2476" y="255" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1591116012649">
+    <state x="2476" y="255" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1595347989172">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="255" width="804" height="525" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1052/3840.0.1920.1080@1920.0.1920.1080" timestamp="1591116012649" />
+    <state x="2476" y="255" width="804" height="525" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1052/3840.0.1920.1080@1920.0.1920.1080" timestamp="1595347989172" />
+    <state x="2681" y="420" width="394" height="196" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1595348035334">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2681" y="420" width="394" height="196" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1080/0.0.1920.1052/3840.0.1920.1080@1920.0.1920.1080" timestamp="1595348035334" />
   </component>
 </project>
